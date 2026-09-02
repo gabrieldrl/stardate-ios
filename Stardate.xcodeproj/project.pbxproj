@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24ABD4853EB09BCA9D1B70FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDAAB21205DCFB93FA2F25A5 /* Assets.xcassets */; };
+		3570374D39D03045555C2127 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0937D1660FE8DE490DB3839 /* ContentView.swift */; };
+		72F28F2F5ECCC65E0C36742B /* StardateCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F352F5AFF9E5953D97C68 /* StardateCore.swift */; };
+		73DA1CA2E5952A2B35A6989C /* StardateCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482F352F5AFF9E5953D97C68 /* StardateCore.swift */; };
+		801225E9A5067F6BA82BBFE8 /* StardateWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 26AF11845EB2D92EDFFA3D73 /* StardateWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AB6F444383D2258469F5C0F5 /* StardateCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6298105BB7CAF6045C61CC /* StardateCoreTests.swift */; };
+		AF1844696058A231F68E15B3 /* StardateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865E693B6A21C8D68F829470 /* StardateApp.swift */; };
+		F279F150F3D47CF195BCBAB4 /* StardateWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027F93BBDE57A591429E674 /* StardateWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85BFB530C5FD7AEEC306224F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8E77429ECA18C16E5733E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F26D5D88E05C8A86FAC186;
+			remoteInfo = StardateWidget;
+		};
+		91AE666298A8CC58DB578E97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8E77429ECA18C16E5733E5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810D574DF275FE97324E4C6F;
+			remoteInfo = Stardate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		154F30EF1655620795380042 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				801225E9A5067F6BA82BBFE8 /* StardateWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0064D625F0B113F43A4531AC /* StardateTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = StardateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		26AF11845EB2D92EDFFA3D73 /* StardateWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StardateWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D7E260528DF0E9C435C181 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		482F352F5AFF9E5953D97C68 /* StardateCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardateCore.swift; sourceTree = "<group>"; };
+		8027F93BBDE57A591429E674 /* StardateWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardateWidget.swift; sourceTree = "<group>"; };
+		865E693B6A21C8D68F829470 /* StardateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardateApp.swift; sourceTree = "<group>"; };
+		9F903A9EB7DAF388E01715E0 /* Stardate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stardate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0937D1660FE8DE490DB3839 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE6298105BB7CAF6045C61CC /* StardateCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StardateCoreTests.swift; sourceTree = "<group>"; };
+		EDAAB21205DCFB93FA2F25A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		16636FB8312E3E953F01C9B2 = {
+			isa = PBXGroup;
+			children = (
+				16989ECBAC757CB64A482688 /* Shared */,
+				DB9BAF82B6B66D1E2BEF084A /* StardateApp */,
+				45AEC1BBE750C50D476973C2 /* StardateTests */,
+				B42184AC0E1CFE11133BBB80 /* StardateWidget */,
+				6C64B4BE1A0B67B435EE2C2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16989ECBAC757CB64A482688 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				482F352F5AFF9E5953D97C68 /* StardateCore.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		45AEC1BBE750C50D476973C2 /* StardateTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE6298105BB7CAF6045C61CC /* StardateCoreTests.swift */,
+			);
+			path = StardateTests;
+			sourceTree = "<group>";
+		};
+		6C64B4BE1A0B67B435EE2C2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F903A9EB7DAF388E01715E0 /* Stardate.app */,
+				0064D625F0B113F43A4531AC /* StardateTests.xctest */,
+				26AF11845EB2D92EDFFA3D73 /* StardateWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B42184AC0E1CFE11133BBB80 /* StardateWidget */ = {
+			isa = PBXGroup;
+			children = (
+				27D7E260528DF0E9C435C181 /* Info.plist */,
+				8027F93BBDE57A591429E674 /* StardateWidget.swift */,
+			);
+			path = StardateWidget;
+			sourceTree = "<group>";
+		};
+		DB9BAF82B6B66D1E2BEF084A /* StardateApp */ = {
+			isa = PBXGroup;
+			children = (
+				EDAAB21205DCFB93FA2F25A5 /* Assets.xcassets */,
+				B0937D1660FE8DE490DB3839 /* ContentView.swift */,
+				865E693B6A21C8D68F829470 /* StardateApp.swift */,
+			);
+			path = StardateApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EB938CA064BECFB45042299 /* StardateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4FB3BF67C75F19EEA89889 /* Build configuration list for PBXNativeTarget "StardateTests" */;
+			buildPhases = (
+				68745469241C6FEA844E639E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCF96F0A5DA2D357821457C /* PBXTargetDependency */,
+			);
+			name = StardateTests;
+			packageProductDependencies = (
+			);
+			productName = StardateTests;
+			productReference = 0064D625F0B113F43A4531AC /* StardateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		810D574DF275FE97324E4C6F /* Stardate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEE74F7C995071CB4F82BA1 /* Build configuration list for PBXNativeTarget "Stardate" */;
+			buildPhases = (
+				7B24192C9A40810A2861191A /* Sources */,
+				272B32BB61AD427E2079B035 /* Resources */,
+				154F30EF1655620795380042 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E4E7D37330584B80745BFB6 /* PBXTargetDependency */,
+			);
+			name = Stardate;
+			packageProductDependencies = (
+			);
+			productName = Stardate;
+			productReference = 9F903A9EB7DAF388E01715E0 /* Stardate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9F26D5D88E05C8A86FAC186 /* StardateWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60687B843474E1FA22004C98 /* Build configuration list for PBXNativeTarget "StardateWidget" */;
+			buildPhases = (
+				B325FFDA365388C8A177C10C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StardateWidget;
+			packageProductDependencies = (
+			);
+			productName = StardateWidget;
+			productReference = 26AF11845EB2D92EDFFA3D73 /* StardateWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8E77429ECA18C16E5733E5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6EB938CA064BECFB45042299 = {
+						ProvisioningStyle = Automatic;
+					};
+					810D574DF275FE97324E4C6F = {
+						ProvisioningStyle = Automatic;
+					};
+					E9F26D5D88E05C8A86FAC186 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF92CC60BA94062FEB3EC7C9 /* Build configuration list for PBXProject "Stardate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 16636FB8312E3E953F01C9B2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6C64B4BE1A0B67B435EE2C2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810D574DF275FE97324E4C6F /* Stardate */,
+				E9F26D5D88E05C8A86FAC186 /* StardateWidget */,
+				6EB938CA064BECFB45042299 /* StardateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		272B32BB61AD427E2079B035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24ABD4853EB09BCA9D1B70FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68745469241C6FEA844E639E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6F444383D2258469F5C0F5 /* StardateCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B24192C9A40810A2861191A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3570374D39D03045555C2127 /* ContentView.swift in Sources */,
+				AF1844696058A231F68E15B3 /* StardateApp.swift in Sources */,
+				73DA1CA2E5952A2B35A6989C /* StardateCore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B325FFDA365388C8A177C10C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F28F2F5ECCC65E0C36742B /* StardateCore.swift in Sources */,
+				F279F150F3D47CF195BCBAB4 /* StardateWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E4E7D37330584B80745BFB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9F26D5D88E05C8A86FAC186 /* StardateWidget */;
+			targetProxy = 85BFB530C5FD7AEEC306224F /* PBXContainerItemProxy */;
+		};
+		ABCF96F0A5DA2D357821457C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810D574DF275FE97324E4C6F /* Stardate */;
+			targetProxy = 91AE666298A8CC58DB578E97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43BC65A7318143A1C87C82FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF8R4AVC2H;
+				INFOPLIST_FILE = StardateWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stardate Widget";
+				INFOPLIST_KEY_NSExtension_NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrieldrl.stardate.widget;
+				PRODUCT_NAME = StardateWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55428A440175F23AC6FAEA1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF8R4AVC2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Stardate;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrieldrl.stardate;
+				PRODUCT_NAME = Stardate;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5781AF53EDA6D1855C584C1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrieldrl.stardate.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stardate.app/Stardate";
+			};
+			name = Release;
+		};
+		5A65E13E47BBA3FA97D5964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A66F5EB539EAE1FA144FBCCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrieldrl.stardate.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stardate.app/Stardate";
+			};
+			name = Debug;
+		};
+		B6DF6245E81CAB6EF54BDD68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF8R4AVC2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Stardate;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrieldrl.stardate;
+				PRODUCT_NAME = Stardate;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB7E61D5DD755BEDF7E2C78B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JF8R4AVC2H;
+				INFOPLIST_FILE = StardateWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Stardate Widget";
+				INFOPLIST_KEY_NSExtension_NSExtensionPointIdentifier = "com.apple.widgetkit-extension";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gabrieldrl.stardate.widget;
+				PRODUCT_NAME = StardateWidget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F11CC8A21B0DAE4552BF23B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEE74F7C995071CB4F82BA1 /* Build configuration list for PBXNativeTarget "Stardate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6DF6245E81CAB6EF54BDD68 /* Debug */,
+				55428A440175F23AC6FAEA1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		60687B843474E1FA22004C98 /* Build configuration list for PBXNativeTarget "StardateWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BC65A7318143A1C87C82FE /* Debug */,
+				CB7E61D5DD755BEDF7E2C78B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE4FB3BF67C75F19EEA89889 /* Build configuration list for PBXNativeTarget "StardateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A66F5EB539EAE1FA144FBCCE /* Debug */,
+				5781AF53EDA6D1855C584C1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DF92CC60BA94062FEB3EC7C9 /* Build configuration list for PBXProject "Stardate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A65E13E47BBA3FA97D5964E /* Debug */,
+				F11CC8A21B0DAE4552BF23B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8E77429ECA18C16E5733E5E /* Project object */;
+}
